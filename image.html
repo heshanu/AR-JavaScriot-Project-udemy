@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+          <img id='L09-img-01' src='OIP.jpg'>
+          <img id='L09-img-02' src='OIP.jpg'>
+        </a-assets>
+
+        <a-image src='#L09-img-01'
+          position='0 1.5 -3' width='1' height='0.75' scale='3 3 1'> 
+        </a-image>
+
+        <a-curvedimage src='#L09-img-01'
+          theta-length='90' theta-start='90' radius='2' position='0 1.5 0' height='0.833' scale='3 3 3'></a-curvedimage>
+        
+        <a-curvedimage src='#L09-img-01'
+          theta-length='90' theta-start='180' radius='2' position='0 1.5 0' height='0.833' scale='3 3 3'></a-curvedimage>
+         
+        <a-curvedimage src='#L09-img-01'
+          theta-length='90' theta-start='270' radius='2' position='0 1.5 0' height='0.833' scale='3 3 3'></a-curvedimage>
+        
+        <a-curvedimage src='#L09-img-01'
+          theta-length='90' theta-start='360' radius='2' position='0 1.5 0' height='0.833' scale='3 3 3'></a-curvedimage>
+        
+
+        <a-box color='#AA0000' opacity='0.5' width='3' height='0.1' depth='3' position='0 1.5 -1.5'>
+
+      </a-box>
+    </a-scene>
+
+        
+
+  </body>
+</html>

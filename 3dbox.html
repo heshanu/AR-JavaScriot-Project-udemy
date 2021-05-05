@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id='metal-NRM' source='download1.jpg'> </img>
+            <img id='brick'></img>
+        </a-assets>
+        <a-box 
+            src='download1.jpg' repeat='1 1' 
+            normal-scale='1 1'
+            repeat='1 1'  
+            normal-texture-repeat='1 1' 
+            scale='-1 1 1'
+            width='4' 
+            height='4' 
+            roughness='0.7'
+            depth='4' 
+            position='2 1.5 -9' 
+            normal-map='#metal-NRM'>
+        </a-box>
+
+        <a-box  
+            src='download1.jpg' 
+            repeat='1 1' 
+            normal-scale='1 -1'
+            normal-texture-repeat='1 1'  
+            scale='-1 1 1'
+            width='4' 
+            height='4' 
+            roughness='0.7'
+            depth='4' 
+            position='12 1.5 -9' 
+            normal-map='#metal-NRM'>
+        </a-box>
+
+        <a-box  
+            src='download1.jpg' 
+            repeat='1 1' 
+            normal-scale='1 -1' 
+            scale='-1 1 1'
+            repeat='1 1'  
+            normal-texture-repeat='1 1' 
+            width='4' 
+            height='4' 
+            roughness='0.7'
+            depth='4' 
+            position='12 1.5 -9' 
+            normal-map='#metal-NRM'>
+        </a-box>
+
+        <a-box  
+            src='download1.jpg' repeat='1 1' normal-scale='1 1'
+            repeat='1 1'  normal-texture-repeat='1 1' 
+            width='4' 
+            height='4' 
+            roughness='0.7'
+            depth='4' 
+            position='22 1.5 -9' normal-map='#metal-NRM'>
+        </a-box>
+    </a-scene>     
+</body>
+</html>
